@@ -1,0 +1,45 @@
+#!/bin/sh
+#
+# .profile
+#
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+  . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+export EDITOR=vim
+export VISUAL=vim
+export SVN_EDITOR=vim
+export GIT_EDITOR=vim
+export PATH="/usr/local/sbin:/usr/sbin:/sbin:${PATH}"
+
+# Java
+export JAVA_HOME=~/Development/java/jdks/jdk
+export PATH="${JAVA_HOME}/bin:${PATH}"
+
+# Groovy
+export GROOVY_HOME=~/Development/groovy/groovy
+export PATH="${GROOVY_HOME}/bin:${PATH}"
+
+# Maven
+export M2_HOME=~/Development/java/maven/apache-maven
+export M2="${M2_HOME}/bin"
+export PATH="${M2}:${PATH}"
+
+# Ant
+export ANT_HOME=~/Development/java/ant/apache-ant
+export PATH="${ANT_HOME}/bin:${PATH}"
+
+# Gradle
+export GRADLE_HOME=~/Development/java/gradle/gradle
+export PATH="${PATH}:${GRADLE_HOME}/bin"
+
+# Eclipse
+export SWT_GTK3=0
+
+# Node
+export NODE_HOME=~/Development/node/node-linux-x64
+export PATH="${NODE_HOME}/bin:${PATH}"
+

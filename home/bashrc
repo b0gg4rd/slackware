@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# .bashrc
+#
+# User specific aliases and functions
+alias ll='/usr/bin/ls -alh --color'
