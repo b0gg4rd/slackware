@@ -40,6 +40,6 @@ export PATH="${PATH}:${GRADLE_HOME}/bin"
 export SWT_GTK3=0
 
 # Node
-export NODE_HOME=~/Development/node/node-linux-x64
+export NODE_HOME=~/Development/node/node
 export PATH="${NODE_HOME}/bin:${PATH}"
 
