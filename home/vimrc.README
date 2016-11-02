@@ -1,6 +1,6 @@
 Setup:
 - Create directory
-  $ mkdir ~/.vim/bundle
+  $ mkdir -p ~/.vim/bundle
 - Clone Vundle
   $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 - Copy the vimrc and gvimrc files to $HOME
