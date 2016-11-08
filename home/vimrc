@@ -15,7 +15,7 @@ call vundle#begin()
 " General
 Plugin 'gmarik/Vundle.vim'
 Plugin 'editorconfig/editorconfig-vim'
-Plugin 'valloric/youcompleteme'
+"lugin 'valloric/youcompleteme'
 Plugin 'slim-template/vim-slim'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
@@ -28,6 +28,9 @@ Plugin 'mattn/emmet-vim'
 Plugin 'mhinz/vim-signify'
 Plugin 'raimondi/delimitmate'
 Plugin 'timcharper/textile.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'godlygeek/tabular'
 
 " Source revision
 Plugin 'vcscommand.vim'
@@ -44,6 +47,7 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'hdima/python-syntax'
 
 " Java
+Plugin 'javacomplete'
 Plugin 'tfnico/vim-gradle'
 Plugin 'derekwyatt/vim-scala'
 
@@ -96,13 +100,14 @@ endif
 " NERDTree config
 autocmd vimenter * NERDTree
 let g:NERDTreeDirArrows = 0
-"let g:NERDTreeDirArrowExpandable = '>'
-"let g:NERDTreeDirArrowCollapsible = '<'
 let g:nerdtree_tabs_open_on_gui_startup = 1
 let g:nerdtree_tabs_open_on_console_startup = 1
 let g:nerdtree_tabs_no_startup_for_diff = 1
 let g:nerdtree_tabs_open_on_new_tab = 1
 let g:nerdtree_tabs_smart_startup_focus = 1
+
+" Syntactic config
+let g:syntastic_mode_map = { "mode" : "passive" }
 
 " For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
 " let &guioptions = substitute(&guioptions, "t", "", "g")
