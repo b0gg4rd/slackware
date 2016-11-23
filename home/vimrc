@@ -28,7 +28,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'mhinz/vim-signify'
 Plugin 'raimondi/delimitmate'
 Plugin 'timcharper/textile.vim'
-Plugin 'majutsushi/tagbar'
+"Plugin 'majutsushi/tagbar'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'godlygeek/tabular'
 
@@ -47,7 +47,7 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'hdima/python-syntax'
 
 " Java
-Plugin 'javacomplete'
+Plugin 'artur-shaik/vim-javacomplete2'
 Plugin 'tfnico/vim-gradle'
 Plugin 'derekwyatt/vim-scala'
 
@@ -108,6 +108,9 @@ let g:nerdtree_tabs_smart_startup_focus = 1
 
 " Syntactic config
 let g:syntastic_mode_map = { "mode" : "passive" }
+
+" Javacomplete2 config
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
 
 " For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
 " let &guioptions = substitute(&guioptions, "t", "", "g")
