@@ -15,35 +15,35 @@ export SVN_EDITOR=vim
 export GIT_EDITOR=vim
 export PATH="/usr/local/sbin:/usr/sbin:/sbin:${PATH}"
 
-# Java
-#export JAVA_HOME=~/Development/java/jdks/jdk
+# Oracle JDK
+#export JAVA_HOME=~/Development/java/oracle-jdk/jdk
 #export PATH="${JAVA_HOME}/bin:${PATH}"
 
 # Ant
-export ANT_HOME=~/Development/java/ant/apache-ant
+export ANT_HOME=~/Development/java/apache-ant/ant
 export PATH="${ANT_HOME}/bin:${PATH}"
 
 # Maven
-export M2_HOME=~/Development/java/maven/apache-maven
+export M2_HOME=~/Development/java/apache-maven/maven
 export M2="${M2_HOME}/bin"
 export PATH="${M2}:${PATH}"
-
-# Groovy
-export GROOVY_HOME=~/Development/groovy/groovy
-export PATH="${GROOVY_HOME}/bin:${PATH}"
 
 # Gradle
 export GRADLE_HOME=~/Development/java/gradle/gradle
 export PATH="${PATH}:${GRADLE_HOME}/bin"
 
+# Groovy
+#export GROOVY_HOME=~/Development/apache-groovy/groovy
+#export PATH="${GROOVY_HOME}/bin:${PATH}"
+
 # Scala
-export SCALA_HOME=~/Development/scala/scala
-export PATH="${PATH}:${SCALA_HOME}/bin"
+#export SCALA_HOME=~/Development/scala/scala
+#export PATH="${PATH}:${SCALA_HOME}/bin"
 
 # Eclipse
 export SWT_GTK3=0
 
 # Node
-export NODE_HOME=~/Development/node/node
-export PATH="${NODE_HOME}/bin:${PATH}"
+#export NODE_HOME=~/Development/node/node
+#export PATH="${NODE_HOME}/bin:${PATH}"
 
