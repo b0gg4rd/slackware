@@ -28,7 +28,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'mhinz/vim-signify'
 Plugin 'raimondi/delimitmate'
 Plugin 'timcharper/textile.vim'
-"Plugin 'majutsushi/tagbar'
+Plugin 'majutsushi/tagbar'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'godlygeek/tabular'
 
@@ -48,6 +48,8 @@ Plugin 'hdima/python-syntax'
 
 " Java
 Plugin 'artur-shaik/vim-javacomplete2'
+Plugin 'nlknguyen/vim-maven-syntax'
+Plugin 'maven-ide'
 Plugin 'tfnico/vim-gradle'
 Plugin 'derekwyatt/vim-scala'
 
