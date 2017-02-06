@@ -49,7 +49,7 @@ export PATH="${SPARK_HOME}/bin:${PATH}"
 export KAFKA_HOME=~/Development/kafka/kafka
 export PATH="${KAFKA_HOME}/bin:${PATH}"
 
-# Apache Confluent
+# Confluent
 export CONFLUENT_HOME=~/Development/kafka/confluent
 export PATH="${CONFLUENT_HOME}/bin:${PATH}"
 
