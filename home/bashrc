@@ -3,5 +3,5 @@
 # .bashrc
 #
 # User specific aliases and functions
-alias ll='/usr/bin/ls -alh --color'
-alias dockerps='/usr/bin/docker ps --format "table {{.ID}}\t{{.Image}}\t{{.Ports}}\t{{.Status}}\t{{.Names}}"'
+alias ll='ls -alh --color'
+alias dps='/usr/bin/docker ps --format "table {{.ID}}\t{{.Image}}\t{{.Ports}}\t{{.Status}}\t{{.Names}}"'
