@@ -7,6 +7,7 @@ endif
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
+
 " Vundle configuration
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -15,7 +16,6 @@ call vundle#begin()
 " General
 Plugin 'gmarik/Vundle.vim'
 Plugin 'editorconfig/editorconfig-vim'
-"lugin 'valloric/youcompleteme'
 Plugin 'slim-template/vim-slim'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
@@ -49,13 +49,14 @@ Plugin 'hdima/python-syntax'
 " Java
 Plugin 'artur-shaik/vim-javacomplete2'
 Plugin 'nlknguyen/vim-maven-syntax'
-Plugin 'maven-ide'
+"Plugin 'maven-ide'
 Plugin 'tfnico/vim-gradle'
 Plugin 'derekwyatt/vim-scala'
 
 " ECMAScript
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
+Plugin 'burnettk/vim-angular'
 
 " CSS
 Plugin 'wavded/vim-stylus'
@@ -65,18 +66,20 @@ Plugin 'docunext/closetag.vim'
 Plugin 'digitaltoad/vim-jade'
 
 call vundle#end()
+
 filetype plugin indent on
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
-set nobackup		" do not keep a backup file, use versions instead
+set nobackup
 set noundofile
-set history=50		" keep 50 lines of command line history
-set ruler		" show the cursor position all the time
+set history=50
+set cursorline
+set ruler
 set number
-set showcmd		" display incomplete commands
-set incsearch		" do incremental searching
+set showcmd
+set incsearch
 set visualbell
 set autoindent
 set laststatus=2
