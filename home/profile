@@ -17,8 +17,8 @@ export GIT_EDITOR=vim
 export PATH="/usr/local/sbin:/usr/sbin:/sbin:${PATH}"
 
 # Oracle JDK
-#export JAVA_HOME=~/Development/java/oracle-jdk/jdk
-#export PATH="${JAVA_HOME}/bin:${PATH}"
+export JAVA_HOME=~/Development/java/jdks/jdk
+export PATH="${JAVA_HOME}/bin:${PATH}"
 
 # Ant
 export ANT_HOME=~/Development/java/ant/ant
@@ -45,18 +45,10 @@ export PATH="${GRADLE_HOME}/bin:${PATH}"
 export SPARK_HOME=~/Development/spark/spark
 export PATH="${SPARK_HOME}/bin:${PATH}"
 
-# Apache Kafka
-export KAFKA_HOME=~/Development/kafka/kafka
-export PATH="${KAFKA_HOME}/bin:${PATH}"
-
-# Confluent
-export CONFLUENT_HOME=~/Development/kafka/confluent
-export PATH="${CONFLUENT_HOME}/bin:${PATH}"
-
 # Eclipse
 export SWT_GTK3=0
 
 # Node
-#export NODE_HOME=~/Development/node/node
-#export PATH="${NODE_HOME}/bin:${PATH}"
+export NODE_HOME=~/Development/nodejs/runtimes/node
+export PATH="${NODE_HOME}/bin:${PATH}"
 
