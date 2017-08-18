@@ -3,9 +3,14 @@
 # .profile
 #
 
-# Get the aliases and functions
+# Get my aliases and functions
 if [ -f ~/.bashrc ]; then
   . ~/.bashrc
+fi
+
+# Get work aliases and functions
+if [ -f ~/.bashrc_wk ]; then
+  . ~/.bashrc_wk
 fi
 
 # User specific environment and startup programs
