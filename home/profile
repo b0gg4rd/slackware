@@ -1,7 +1,4 @@
 #!/bin/sh
-#
-# .profile
-#
 
 # Get my aliases and functions
 if [ -f ~/.bashrc ]; then
@@ -22,7 +19,9 @@ export GIT_EDITOR=vim
 export PATH="/usr/local/sbin:/usr/sbin:/sbin:${PATH}"
 
 # Oracle JDK
-export JAVA_HOME=~/Development/java/jdks/jdk
+export JAVA_HOME=~/Development/java/jdk/jdk
+export JDK_HOME="${JAVA_HOME}"
+export JRE_HOME="${JAVA_HOME}/jre"
 export PATH="${JAVA_HOME}/bin:${PATH}"
 
 # Ant
@@ -30,21 +29,20 @@ export ANT_HOME=~/Development/java/ant/ant
 export PATH="${ANT_HOME}/bin:${PATH}"
 
 # Maven
-export M2_HOME=~/Development/java/maven/maven
-export M2="${M2_HOME}/bin"
-export PATH="${M2}:${PATH}"
+export MAVEN_HOME=~/Development/java/maven/maven
+export PATH="${MAVEN}/bin:${PATH}"
 
 # Gradle
 export GRADLE_HOME=~/Development/java/gradle/gradle
 export PATH="${GRADLE_HOME}/bin:${PATH}"
 
 # Groovy
-#export GROOVY_HOME=~/Development/groovy/groovy
-#export PATH="${GROOVY_HOME}/bin:${PATH}"
+export GROOVY_HOME=~/Development/groovy/groovy
+export PATH="${GROOVY_HOME}/bin:${PATH}"
 
 # Scala
-#export SCALA_HOME=~/Development/scala/scala
-#export PATH="${PATH}:${SCALA_HOME}/bin"
+export SCALA_HOME=~/Development/scala/scala
+export PATH="${PATH}:${SCALA_HOME}/bin"
 
 # Apache Spark
 export SPARK_HOME=~/Development/spark/spark
@@ -52,8 +50,14 @@ export PATH="${SPARK_HOME}/bin:${PATH}"
 
 # Eclipse
 export SWT_GTK3=0
+export ECLIPSE_HOME=~/Development/java/eclipse/eclipse
+export PATH="${ECLIPSE_HOME}:${PATH}"
+
+# DBeaver
+export DBEAVER_HOME=~/Development/database/dbeaver/dbeaver
+export PATH="${DBEAVER_HOME}:${PATH}"
 
 # Node
-export NODE_HOME=~/Development/nodejs/runtimes/node
+export NODE_HOME=~/Development/node/runtime/node
 export PATH="${NODE_HOME}/bin:${PATH}"
 

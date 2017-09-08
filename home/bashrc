@@ -1,7 +1,10 @@
 #!/bin/sh
-#
-# .bashrc
-#
+
 # User specific aliases and functions
-alias ll='ls -alh --color'
+alias h='history'
+
+alias ls='ls -h --color'
+alias ll='ls -al'
+
 alias dps='/usr/bin/docker ps --format "table {{.ID}}\t{{.Image}}\t{{.Ports}}\t{{.Status}}\t{{.Names}}"'
+
