@@ -3,3 +3,6 @@
 	conflictstyle = diff3
 [mergetool]
 	prompt = false
+[user]
+	name = b0gg4rd
+	email = boggard@hotmail.com
