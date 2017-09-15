@@ -32,6 +32,10 @@ export PATH="${ANT_HOME}/bin:${PATH}"
 export MAVEN_HOME=~/Development/java/maven/maven
 export PATH="${MAVEN}/bin:${PATH}"
 
+# JMeter
+export JMETER_HOME=~/Development/java/jmeter/jmeter
+export PATH="${JMETER_HOME}/bin:${PATH}"
+
 # Gradle
 export GRADLE_HOME=~/Development/java/gradle/gradle
 export PATH="${GRADLE_HOME}/bin:${PATH}"
@@ -48,8 +52,11 @@ export PATH="${PATH}:${SCALA_HOME}/bin"
 export SPARK_HOME=~/Development/spark/spark
 export PATH="${SPARK_HOME}/bin:${PATH}"
 
+# IntelliJ
+export INTELLIJ_HOME=~/Development/java/intellij/intellij
+export PATH="${INTELLIJ_HOME}/bin:${PATH}"
+
 # Eclipse
-export SWT_GTK3=0
 export ECLIPSE_HOME=~/Development/java/eclipse/eclipse
 export PATH="${ECLIPSE_HOME}:${PATH}"
 
