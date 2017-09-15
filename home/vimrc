@@ -102,21 +102,21 @@ endif
 " Airline config
 set t_Co=256
 let g:airline_powerline_fonts                  = 1
-let g:airline#extensions#branch#empty_message  =  "no .git"
-let g:airline#extensions#whitespace#enabled    =  0
-let g:airline#extensions#syntastic#enabled     =  1
-let g:airline#extensions#tabline#enabled       =  1
-let g:airline#extensions#tabline#tab_nr_type   =  1
-let g:airline#extensions#tabline#fnamecollapse =  1
+let g:airline#extensions#branch#empty_message  = "no .git"
+let g:airline#extensions#whitespace#enabled    = 0
+let g:airline#extensions#syntastic#enabled     = 1
+let g:airline#extensions#tabline#enabled       = 1
+let g:airline#extensions#tabline#tab_nr_type   = 1
+let g:airline#extensions#tabline#fnamecollapse = 1
 
 " NERDTree config
 autocmd vimenter * NERDTree
-let g:NERDTreeDirArrows = 0
-let g:nerdtree_tabs_open_on_gui_startup = 1
+let g:NERDTreeDirArrows                     = 0
+let g:nerdtree_tabs_open_on_gui_startup     = 1
 let g:nerdtree_tabs_open_on_console_startup = 1
-let g:nerdtree_tabs_no_startup_for_diff = 1
-let g:nerdtree_tabs_open_on_new_tab = 1
-let g:nerdtree_tabs_smart_startup_focus = 1
+let g:nerdtree_tabs_no_startup_for_diff     = 1
+let g:nerdtree_tabs_open_on_new_tab         = 1
+let g:nerdtree_tabs_smart_startup_focus     = 1
 
 " Syntactic config
 " let g:syntastic_mode_map = { "mode" : "passive" }
