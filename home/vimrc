@@ -44,11 +44,9 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'hdima/python-syntax'
 
 " Java
-" Plugin 'artur-shaik/vim-javacomplete2'
-" Plugin 'nlknguyen/vim-maven-syntax'
-" Plugin 'maven-ide'
-" Plugin 'tfnico/vim-gradle'
-" Plugin 'derekwyatt/vim-scala'
+Plugin 'nlknguyen/vim-maven-syntax'
+Plugin 'tfnico/vim-gradle'
+Plugin 'derekwyatt/vim-scala'
 
 " ECMAScript
 Plugin 'jelera/vim-javascript-syntax'
@@ -120,9 +118,6 @@ let g:nerdtree_tabs_smart_startup_focus     = 1
 
 " Syntactic config
 " let g:syntastic_mode_map = { "mode" : "passive" }
-
-" Javacomplete2 config
-" autocmd FileType java setlocal omnifunc=javacomplete#Complete
 
 " For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
 " let &guioptions = substitute(&guioptions, "t", "", "g")
