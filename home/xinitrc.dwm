@@ -21,8 +21,14 @@ if [ -f $usermodmap ]; then
     xmodmap $usermodmap
 fi
 
-# Start the window manager:
+# Java Swing apps works fine
+wmname LG3D
+unset AWT_TOOLKIT
+
+# DWM status
 slstatus &
+
+# Start the window manager:
 if [ -z "$DESKTOP_SESSION" -a -x /usr/bin/ck-launch-session ]; then
   exec ck-launch-session /usr/local/bin/dwm
 else
