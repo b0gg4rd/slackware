@@ -44,9 +44,10 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'hdima/python-syntax'
 
 " Java
+" Plugin 'artur-shaik/vim-javacomplete2'
 Plugin 'nlknguyen/vim-maven-syntax'
-Plugin 'tfnico/vim-gradle'
-Plugin 'derekwyatt/vim-scala'
+" Plugin 'tfnico/vim-gradle'
+" Plugin 'derekwyatt/vim-scala'
 
 " ECMAScript
 Plugin 'jelera/vim-javascript-syntax'
@@ -104,8 +105,8 @@ let g:airline#extensions#branch#empty_message  = "no .git"
 let g:airline#extensions#whitespace#enabled    = 0
 let g:airline#extensions#syntastic#enabled     = 1
 let g:airline#extensions#tabline#enabled       = 1
-let g:airline#extensions#tabline#tab_nr_type   = 1
-let g:airline#extensions#tabline#fnamecollapse = 1
+let g:airline#extensions#tabline#tab_nr        = 0
+let g:airline#extensions#tabline#formatter     = 'unique_tail'
 
 " NERDTree config
 autocmd vimenter * NERDTree
