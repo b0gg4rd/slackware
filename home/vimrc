@@ -53,6 +53,7 @@ Plugin 'nlknguyen/vim-maven-syntax'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'burnettk/vim-angular'
+Plugin 'leafgarland/typescript-vim'
 
 " CSS
 Plugin 'wavded/vim-stylus'
