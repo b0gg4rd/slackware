@@ -21,10 +21,6 @@ if [ -f $usermodmap ]; then
     xmodmap $usermodmap
 fi
 
-# Java Swing apps works fine
-wmname LG3D
-unset AWT_TOOLKIT
-
 # DWM status
 slstatus &
 

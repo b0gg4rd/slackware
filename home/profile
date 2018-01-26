@@ -24,6 +24,10 @@ export JDK_HOME="${JAVA_HOME}"
 export JRE_HOME="${JAVA_HOME}/jre"
 export PATH="${JAVA_HOME}/bin:${PATH}"
 
+# Swing apps work with DWM
+wmname LG3D
+unset AWT_TOOLKIT
+
 # Ant
 export ANT_HOME=~/Development/java/ant/ant
 export PATH="${ANT_HOME}/bin:${PATH}"
@@ -31,10 +35,6 @@ export PATH="${ANT_HOME}/bin:${PATH}"
 # Maven
 export MAVEN_HOME=~/Development/java/maven/maven
 export PATH="${MAVEN}/bin:${PATH}"
-
-# JMeter
-export JMETER_HOME=~/Development/java/jmeter/jmeter
-export PATH="${JMETER_HOME}/bin:${PATH}"
 
 # Gradle
 export GRADLE_HOME=~/Development/java/gradle/gradle
@@ -63,6 +63,18 @@ export PATH="${ECLIPSE_HOME}:${PATH}"
 # DBeaver
 export DBEAVER_HOME=~/Development/database/dbeaver/dbeaver
 export PATH="${DBEAVER_HOME}:${PATH}"
+
+# Robo3T
+export ROBO3T_HOME=~/Development/database/mongo/robo3t
+export PATH="${ROBO3T_HOME}/bin:${PATH}"
+
+# JMeter
+export JMETER_HOME=~/Development/java/jmeter/jmeter
+export PATH="${JMETER_HOME}/bin:${PATH}"
+
+# SOAP UI
+export SOAPUI_HOME=~/Development/soap/soapui/soapui
+export PATH="${SOAPUI_HOME}/bin:${PATH}"
 
 # Node
 export NODE_HOME=~/Development/node/runtime/node
