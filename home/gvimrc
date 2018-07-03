@@ -16,4 +16,8 @@ if version >= 500
   colorscheme default
   set guifont=Liberation\ Mono\ 8
 
+  set guioptions-=T
+  set guioptions-=r
+  set guioptions-=L
+
 endif
