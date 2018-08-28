@@ -19,7 +19,7 @@ export GIT_EDITOR=vim
 export PATH="/usr/local/sbin:/usr/sbin:/sbin:${PATH}"
 
 # Oracle JDK
-export JAVA_HOME=~/Development/java/jdk/jdk
+export JAVA_HOME=~/development/java/jdk/jdk
 export JDK_HOME="${JAVA_HOME}"
 export JRE_HOME="${JAVA_HOME}/jre"
 export PATH="${JAVA_HOME}/bin:${PATH}"
@@ -29,54 +29,58 @@ wmname LG3D
 unset AWT_TOOLKIT
 
 # Ant
-export ANT_HOME=~/Development/java/ant/ant
+export ANT_HOME=~/development/java/ant/ant
 export PATH="${ANT_HOME}/bin:${PATH}"
 
 # Maven
-export MAVEN_HOME=~/Development/java/maven/maven
+export MAVEN_HOME=~/development/java/maven/maven
 export PATH="${MAVEN}/bin:${PATH}"
 
 # Gradle
-export GRADLE_HOME=~/Development/java/gradle/gradle
+export GRADLE_HOME=~/development/java/gradle/gradle
 export PATH="${GRADLE_HOME}/bin:${PATH}"
 
 # Groovy
-export GROOVY_HOME=~/Development/groovy/groovy
+export GROOVY_HOME=~/development/groovy/groovy
 export PATH="${GROOVY_HOME}/bin:${PATH}"
 
 # Scala
-export SCALA_HOME=~/Development/scala/scala
+export SCALA_HOME=~/development/scala/scala
 export PATH="${PATH}:${SCALA_HOME}/bin"
 
 # Apache Spark
-export SPARK_HOME=~/Development/spark/spark
+export SPARK_HOME=~/development/spark/spark
 export PATH="${SPARK_HOME}/bin:${PATH}"
 
 # IntelliJ
-export INTELLIJ_HOME=~/Development/java/intellij/intellij
+export INTELLIJ_HOME=~/development/java/intellij/intellij
 export PATH="${INTELLIJ_HOME}/bin:${PATH}"
 
 # Eclipse
-export ECLIPSE_HOME=~/Development/java/eclipse/eclipse
+export ECLIPSE_HOME=~/development/java/eclipse/eclipse
 export PATH="${ECLIPSE_HOME}:${PATH}"
 
+# SQuirrel SQL
+export SQUIRREL_HOME=~/development/database/squirrel/squirrel-sql
+export PATH="${SQUIRREL_HOME}:${PATH}"
+
 # DBeaver
-export DBEAVER_HOME=~/Development/database/dbeaver/dbeaver
+export DBEAVER_HOME=~/development/database/dbeaver/dbeaver
 export PATH="${DBEAVER_HOME}:${PATH}"
 
 # Robo3T
-export ROBO3T_HOME=~/Development/database/mongo/robo3t
+export ROBO3T_HOME=~/development/database/mongo/robo3t
 export PATH="${ROBO3T_HOME}/bin:${PATH}"
 
 # JMeter
-export JMETER_HOME=~/Development/java/jmeter/jmeter
+export JMETER_HOME=~/development/java/jmeter/jmeter
 export PATH="${JMETER_HOME}/bin:${PATH}"
 
 # SOAP UI
-export SOAPUI_HOME=~/Development/soap/soapui/soapui
+export SOAPUI_HOME=~/development/soap/soapui/soapui
 export PATH="${SOAPUI_HOME}/bin:${PATH}"
 
 # Node
-export NODE_HOME=~/Development/node/runtime/node
+export NODE_HOME=~/development/node/runtime/node
 export PATH="${NODE_HOME}/bin:${PATH}"
 
