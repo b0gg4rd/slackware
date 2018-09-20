@@ -7,7 +7,7 @@ fi
 
 # Get work aliases and functions
 if [ -f ~/.bashrc_wk ]; then
-  . ~/.bashrc_wk
+  . ~/.bashrc_office
 fi
 
 # User specific environment and startup programs
@@ -59,10 +59,6 @@ export PATH="${INTELLIJ_HOME}/bin:${PATH}"
 # Eclipse
 export ECLIPSE_HOME=~/development/java/eclipse/eclipse
 export PATH="${ECLIPSE_HOME}:${PATH}"
-
-# SQuirrel SQL
-export SQUIRREL_HOME=~/development/database/squirrel/squirrel-sql
-export PATH="${SQUIRREL_HOME}:${PATH}"
 
 # DBeaver
 export DBEAVER_HOME=~/development/database/dbeaver/dbeaver
