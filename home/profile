@@ -5,11 +5,6 @@ if [ -f ~/.bashrc ]; then
   . ~/.bashrc
 fi
 
-# Get work aliases and functions
-if [ -f ~/.bashrc_wk ]; then
-  . ~/.bashrc_office
-fi
-
 # User specific environment and startup programs
 export HISTSIZE=3000
 export EDITOR=vim

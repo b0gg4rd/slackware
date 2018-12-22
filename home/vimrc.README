@@ -4,7 +4,7 @@ Setup:
 - Clone Vundle
   $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 - Clone Powerline fonts
-  $ git clone https://github.com:powerline/fonts.git ~/.vim/fonts
+  $ git clone https://github.com/powerline/fonts.git ~/.vim/fonts
   $ cd ~/.vim/fonts && ./install.sh
 - Copy the vimrc and gvimrc files to $HOME
   $ cp vimrc ~/.vimrc && cp gvimrc ~/.gvimrc
