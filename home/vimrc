@@ -48,6 +48,7 @@ Plugin 'hdima/python-syntax'
 Plugin 'nlknguyen/vim-maven-syntax'
 " Plugin 'tfnico/vim-gradle'
 " Plugin 'derekwyatt/vim-scala'
+Plugin 'martinda/jenkinsfile-vim-syntax'
 
 " ECMAScript
 Plugin 'jelera/vim-javascript-syntax'

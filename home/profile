@@ -14,13 +14,16 @@ export GIT_EDITOR=vim
 export PATH="/usr/local/sbin:/usr/sbin:/sbin:${PATH}"
 
 # Oracle JDK
-export JAVA_HOME=~/development/java/jdk/jdk
-export JDK_HOME="${JAVA_HOME}"
-export JRE_HOME="${JAVA_HOME}/jre"
-export PATH="${JAVA_HOME}/bin:${PATH}"
+#export JAVA_HOME=~/development/java/jdk/jdk
+#export JDK_HOME="${JAVA_HOME}"
+#export JRE_HOME="${JAVA_HOME}/jre"
+#export PATH="${JAVA_HOME}/bin:${PATH}"
 
 # Swing apps work with DWM
-wmname LG3D
+if [ -n "${DISPLAY}" ]; then
+  wmname LG3D
+fi
+
 unset AWT_TOOLKIT
 
 # Ant
@@ -78,4 +81,8 @@ export PATH="${SOAPUI_HOME}/bin:${PATH}"
 # Node
 export NODE_HOME=~/development/node/runtime/node
 export PATH="${NODE_HOME}/bin:${PATH}"
+
+# GoLang
+export GOROOT=~/development/golang/runtime/go
+export PATH="${GOROOT}/bin:${PATH}"
 

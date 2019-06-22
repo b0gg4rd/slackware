@@ -1,15 +1,24 @@
 [diff]
-	tool = gvimdiff
-	conflictstyle = diff3
+  tool = gvimdiff
+  conflictstyle = diff3
 [difftool]
-	prompt = false
+  prompt = false
 [merge]
-	tool = gvimdiff
-	conflictstyle = diff3
+  tool = gvimdiff
+  conflictstyle = diff3
 [mergetool]
-	prompt = false
+  prompt = false
 [user]
-	name = b0gg4rd
-	email = boggard@hotmail.com
+  name = b0gg4rd
+  email = boggard@hotmail.com
 [cola]
-	spellcheck = false
+  spellcheck = false
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = true
+  pager = true
+[core]
+  pager = less -R
