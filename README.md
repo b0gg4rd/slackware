@@ -1,2 +1,3 @@
 # Slackware
-This repository is for the complete configuration used in the Slackware Boxes.
+
+This repository is for the configuration used in the Slackware Boxes.
