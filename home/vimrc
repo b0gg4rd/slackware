@@ -19,7 +19,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-surround'
 " Plugin 'mattn/emmet-vim'
 Plugin 'mhinz/vim-signify'
@@ -29,10 +29,17 @@ Plugin 'majutsushi/tagbar'
 " Plugin 'easymotion/vim-easymotion'
 Plugin 'godlygeek/tabular'
 
+" Theme
+Plugin 'arcticicestudio/nord-vim'
+
 " Source revision
 Plugin 'vcscommand.vim'
 Plugin 'svn.vim'
 Plugin 'tpope/vim-fugitive'
+
+" IaC
+" Plugin 'juliosueiras/vim-terraform-completion'
+Plugin 'hashivim/vim-terraform'
 
 " C
 Plugin 'octol/vim-cpp-enhanced-highlight'
@@ -46,8 +53,8 @@ Plugin 'hdima/python-syntax'
 " Java
 " Plugin 'artur-shaik/vim-javacomplete2'
 Plugin 'nlknguyen/vim-maven-syntax'
-" Plugin 'tfnico/vim-gradle'
-" Plugin 'derekwyatt/vim-scala'
+Plugin 'tfnico/vim-gradle'
+Plugin 'derekwyatt/vim-scala'
 Plugin 'martinda/jenkinsfile-vim-syntax'
 
 " ECMAScript

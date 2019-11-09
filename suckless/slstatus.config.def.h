@@ -66,6 +66,6 @@ static const struct arg args[] = {
 	{ cpu_perc    , "[CPU %2s%% ", NULL },
 	{ temp        , "%2s°C]"     , "/sys/class/thermal/thermal_zone0/temp" },
 	{ ram_perc    , "[RAM %2s%]" , NULL },
-	{ battery_perc, "[BAT %s%]"  , "BAT1" },
+	{ battery_perc, "[BAT %s%]"  , "BAT0" },
 	{ datetime    , "[%s]"       , "%F %T" },
 };

@@ -1,0 +1,125 @@
+Host *
+  ServerAliveInterval 20
+
+Host staff.dev.domi.baz.linko.mx
+  HostName      staff.dev.domi.baz.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host oracle.dev.domi.baz.linko.mx
+  HostName      oracle.dev.domi.baz.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.mci.infonavit.linko.mx
+  HostName      staff.dev.mci.infonavit.linko.mx
+  Port          22
+  User          linko
+  IdentityFile  ~/.ssh/id_rsa
+
+Host mci-qa-staff.southcentralus.cloudapp.azure.com
+  HostName      mci-qa-staff.southcentralus.cloudapp.azure.com
+  Port          22
+  User          mci
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.bcp.infonavit.linko.mx
+  HostName      staff.dev.bcp.infonavit.linko.mx
+  Port          22
+  User          linko
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.afores.chaintity.com
+  HostName      staff.afores.chaintity.com
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.edcd.baz.linko.mx
+  HostName      staff.dev.edcd.baz.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.smartdoc.linko.mx
+  HostName      staff.smartdoc.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.checkbus.metrobus.linko.mx
+  HostName      staff.dev.checkbus.metrobus.linko.mx
+  Port          22
+  User          centos
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.registroasistido.aforeazteca.linko.mx
+  HostName      staff.dev.registroasistido.aforeazteca.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.qa.registroasistido.aforeazteca.linko.mx
+  HostName      staff.qa.registroasistido.aforeazteca.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host oracle.dev.registroasistido.aforeazteca.linko.mx
+  HostName      oracle.dev.registroasistido.aforeazteca.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.edcd.linko.mx
+  HostName      staff.edcd.linko.mx
+  Port          22
+  User          admin
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.bw5tobw6.aforeazteca.linko.mx
+  HostName      staff.dev.bw5tobw6.aforeazteca.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.backend.cetesdirecto.linko.mx
+  HostName      staff.dev.backend.cetesdirecto.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.chaintity.com
+  HostName      staff.dev.chaintity.com
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.spotfirex.cibanco.linko.mx
+  HostName           staff.dev.spotfirex.cibanco.linko.mx
+  Port               22
+  User               devops
+  IdentityFile       ~/.ssh/id_rsa
+  ForwardX11         yes
+  ForwardX11Trusted  yes
+
+Host staff.training.xcaret.linko.mx
+  HostName      staff.training.xcaret.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.mashery.xcaret.linko.mx
+  HostName      staff.dev.mashery.xcaret.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.proveedores.linko.mx
+  HostName      staff.dev.proveedores.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+

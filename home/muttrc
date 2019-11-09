@@ -2,7 +2,7 @@ set from = "boggard@gmail.com"
 set use_from = yes
 set envelope_from = yes
 
-set smtp_url = "smtps://boggard@gmail.com@smtp.gmail.com:465/"
+set smtp_url = "smtps://smtp.gmail.com:465/"
 #set smtp_pass = "<gmail password>"
 set imap_user = "boggard@gmail.com"
 #set imap_pass = "<gmail password>"
