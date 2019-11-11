@@ -13,7 +13,7 @@ if version >= 500
 
   set hlsearch
 
-  colorscheme default
+  colorscheme desert
   set guifont=Liberation\ Mono\ 8
 
   set guioptions-=T
