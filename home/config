@@ -37,6 +37,18 @@ Host staff.afores.chaintity.com
   User          devops
   IdentityFile  ~/.ssh/id_rsa
 
+Host staff.dev.afores.chaintity.com
+  HostName      staff.dev.afores.chaintity.com
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.qa.afores.chaintity.com
+  HostName      staff.qa.afores.chaintity.com
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
 Host staff.dev.edcd.baz.linko.mx
   HostName      staff.dev.edcd.baz.linko.mx
   Port          22
@@ -85,6 +97,14 @@ Host staff.dev.bw5tobw6.aforeazteca.linko.mx
   User          devops
   IdentityFile  ~/.ssh/id_rsa
 
+Host dev.bw5tobw6.aforeazteca.linko.mx
+  HostName           dev.bw5tobw6.aforeazteca.linko.mx
+  Port               22
+  User               tibco
+  IdentityFile       ~/.ssh/id_rsa
+  ForwardX11         yes
+  ForwardX11Trusted  yes
+
 Host staff.dev.backend.cetesdirecto.linko.mx
   HostName      staff.dev.backend.cetesdirecto.linko.mx
   Port          22
@@ -119,6 +139,24 @@ Host staff.dev.mashery.xcaret.linko.mx
 
 Host staff.dev.proveedores.linko.mx
   HostName      staff.dev.proveedores.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.apachekafka.baz.linko.mx
+  HostName      staff.dev.apachekafka.baz.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.drp.apachekafka.baz.linko.mx
+  HostName      staff.drp.apachekafka.baz.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.bw5tobw6.cibanco.linko.mx
+  HostName      staff.dev.bw5tobw6.cibanco.linko.mx
   Port          22
   User          devops
   IdentityFile  ~/.ssh/id_rsa
