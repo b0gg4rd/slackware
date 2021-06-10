@@ -6,3 +6,5 @@ alias h='history'
 alias ls='/bin/ls -h --color'
 alias ll='ls -al'
 
+alias tmux='tmux -2'
+
