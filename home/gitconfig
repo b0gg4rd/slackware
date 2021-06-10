@@ -8,9 +8,6 @@
   conflictstyle = diff3
 [mergetool]
   prompt = false
-[user]
-  name = fcruzlinko
-  email = fcruz@linko.mx
 [cola]
   spellcheck = false
 [color]
