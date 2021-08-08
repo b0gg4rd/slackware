@@ -19,3 +19,5 @@
   pager = true
 [core]
   pager = less -R
+[pull]
+	rebase = true

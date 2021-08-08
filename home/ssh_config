@@ -31,24 +31,6 @@ Host staff.dev.bcp.infonavit.linko.mx
   User          linko
   IdentityFile  ~/.ssh/id_rsa
 
-Host staff.afores.chaintity.com
-  HostName      staff.afores.chaintity.com
-  Port          22
-  User          devops
-  IdentityFile  ~/.ssh/id_rsa
-
-Host staff.dev.afores.chaintity.com
-  HostName      staff.dev.afores.chaintity.com
-  Port          22
-  User          devops
-  IdentityFile  ~/.ssh/id_rsa
-
-Host staff.qa.afores.chaintity.com
-  HostName      staff.qa.afores.chaintity.com
-  Port          22
-  User          devops
-  IdentityFile  ~/.ssh/id_rsa
-
 Host staff.dev.edcd.baz.linko.mx
   HostName      staff.dev.edcd.baz.linko.mx
   Port          22
@@ -157,6 +139,35 @@ Host staff.drp.apachekafka.baz.linko.mx
 
 Host staff.dev.bw5tobw6.cibanco.linko.mx
   HostName      staff.dev.bw5tobw6.cibanco.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.training.cardif.linko.mx
+  HostName      staff.dev.training.cardif.linko.mx
+  Port          22
+  User          devops
+  IdentityFile  ~/.ssh/id_rsa
+
+Host dev.training.cardif.linko.mx
+  HostName      dev.training.cardif.linko.mx
+  Port          22
+  User          ec2-user
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff-baztibcoacticotraining.westus2.cloudapp.azure.com
+  HostName      staff-baztibcoacticotraining.westus2.cloudapp.azure.com
+  Port          22
+  User          azureuser
+  IdentityFile  ~/.ssh/id_rsa
+
+Host git-codecommit.*.amazonaws.com
+  Port          22
+  User          APKAW24C42TPLL5L74HT
+  IdentityFile  ~/.ssh/id_rsa
+
+Host staff.dev.encuentro.arquidiocesis.linko.mx
+  HostName      staff.dev.encuentro.arquidiocesis.linko.mx
   Port          22
   User          devops
   IdentityFile  ~/.ssh/id_rsa

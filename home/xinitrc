@@ -21,13 +21,15 @@ if [ -f $usermodmap ]; then
     xmodmap $usermodmap
 fi
 
+xrandr -s 1600x900
+
 # DWM status
 /usr/local/bin/slstatus &
 
 # Start the window manager:
-if [ -z "$DESKTOP_SESSION" -a -x /usr/bin/ck-launch-session ]; then
-  exec ck-launch-session /usr/local/bin/dwm
-else
+#if [ -z "$DESKTOP_SESSION" -a -x /usr/bin/ck-launch-session ]; then
+#  exec ck-launch-session /usr/local/bin/dwm
+#else
   exec /usr/local/bin/dwm
-fi
+#fi
 
