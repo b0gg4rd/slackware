@@ -20,3 +20,7 @@ if [ -n "${DISPLAY}" ]; then
   wmname LG3D
 fi
 
+if [ -f ~/.profile-linkomx ]; then
+  . ~/.profile-linkomx
+fi
+
