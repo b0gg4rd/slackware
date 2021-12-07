@@ -1,1 +1,15 @@
+### Git ###
+*.orig
+
+### Others ###
+profile.local
+
+### VIM ###
+*~
 *.swp
+*.swo
+
+### General ###
+*.log
+*.lock*
+*.DS_Store
